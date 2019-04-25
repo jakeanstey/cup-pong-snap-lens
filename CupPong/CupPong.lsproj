@@ -1,0 +1,1568 @@
+{
+    "lens_id": "",
+    "document_id": "gkLONzvidqm-0plDisZD",
+    "original_document_id": "Hx_81CKClnWtxw19993O",
+    "version": "14",
+    "lastChanged": "1556157161117",
+    "preview": "",
+    "videoPreview": "",
+    "videoPreviewUpdateTime": "",
+    "isReadOnly": "false",
+    "studioVersion": {
+        "createdWith": {
+            "type": "Public",
+            "major": "2",
+            "minor": "0",
+            "patch": "0",
+            "build": "1"
+        },
+        "lastSavedWith": {
+            "type": "Public",
+            "major": "2",
+            "minor": "0",
+            "patch": "0",
+            "build": "1"
+        }
+    },
+    "view": {
+        "ResourceUiComponent": {
+            "collapsedList": [
+                [
+                    [
+                        "Materials"
+                    ],
+                    [
+                        "Materials",
+                        "Invisible"
+                    ],
+                    [
+                        "Materials",
+                        "Matte Shadow"
+                    ],
+                    [
+                        "Meshes"
+                    ],
+                    [
+                        "Meshes",
+                        "Box"
+                    ],
+                    [
+                        "Meshes",
+                        "Plane"
+                    ],
+                    [
+                        "Meshes",
+                        "Sphere"
+                    ],
+                    [
+                        "Objects"
+                    ],
+                    [
+                        "Objects",
+                        "Ball"
+                    ],
+                    [
+                        "Objects",
+                        "Ball",
+                        "Animations"
+                    ],
+                    [
+                        "Objects",
+                        "Ball",
+                        "Ball"
+                    ],
+                    [
+                        "Objects",
+                        "Ball",
+                        "Materials"
+                    ],
+                    [
+                        "Objects",
+                        "Ball",
+                        "Materials",
+                        "Material"
+                    ],
+                    [
+                        "Objects",
+                        "Ball",
+                        "Meshes",
+                        "Sphere"
+                    ],
+                    [
+                        "Objects",
+                        "Cup"
+                    ],
+                    [
+                        "Objects",
+                        "Cup",
+                        "Animations"
+                    ],
+                    [
+                        "Objects",
+                        "Cup",
+                        "Cup"
+                    ],
+                    [
+                        "Objects",
+                        "Cup",
+                        "Materials",
+                        "Diffuse"
+                    ],
+                    [
+                        "Objects",
+                        "Cup",
+                        "Meshes"
+                    ],
+                    [
+                        "Objects",
+                        "Cup",
+                        "Meshes",
+                        "Circle"
+                    ],
+                    [
+                        "Objects",
+                        "Cup",
+                        "Meshes",
+                        "Cylinder"
+                    ],
+                    [
+                        "Scripts",
+                        "BallController"
+                    ],
+                    [
+                        "Scripts",
+                        "CupController"
+                    ],
+                    [
+                        "Textures"
+                    ],
+                    [
+                        "Textures",
+                        "Base"
+                    ],
+                    [
+                        "Textures",
+                        "Normal"
+                    ],
+                    [
+                        "echopark_diff"
+                    ],
+                    [
+                        "echopark_spec"
+                    ]
+                ]
+            ]
+        },
+        "SceneTreeUiComponent": {
+            "collapsedList": [
+                [
+                    "1556148863802760:34013",
+                    "1556149226195954:35309",
+                    "1556150433476783:51059"
+                ]
+            ]
+        },
+        "MetaInfoUIComponent": {
+            "hints": "",
+            "lens": "Untitled",
+            "camera": "2",
+            "lens_descriptors": ""
+        },
+        "PreviewUiComponent": {
+            "is_back_camera": "true",
+            "show_snap_ui": "true",
+            "show_sponsored_ui": "false"
+        },
+        "InspectorUiComponent": {
+            "collapsedList": [
+                ""
+            ]
+        },
+        "LayerUiComponent": {
+            "colorMap": ""
+        }
+    },
+    "model": {
+        "IResourceManager": {
+            "list": [
+                {
+                    "resId": "1",
+                    "uid": "1:1",
+                    "name": "Camera Output",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "2",
+                    "uid": "2:2",
+                    "name": "Camera Input",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "8",
+                    "uid": "1517446348230286:84828",
+                    "name": "\/Resources\/Resource8.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "9",
+                    "uid": "1517446348234137:84840",
+                    "name": "\/Resources\/Resource9.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "10",
+                    "uid": "1556148860785099:33949",
+                    "name": "Files\/File3.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "11",
+                    "uid": "1556148979124249:34763",
+                    "name": "Files\/File4",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "12",
+                    "uid": "1556148979351305:34779",
+                    "name": "Files\/File6.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "13",
+                    "uid": "1556149225957532:35280",
+                    "name": "Files\/File7.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "14",
+                    "uid": "1556149225993920:35293",
+                    "name": "Files\/File8",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "15",
+                    "uid": "1556149226207533:35452",
+                    "name": "Ball",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "16",
+                    "uid": "1556149410452121:38568",
+                    "name": "Files\/File13.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "17",
+                    "uid": "1556150433334855:51033",
+                    "name": "Files\/File14.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "18",
+                    "uid": "1556150433422388:51046",
+                    "name": "Files\/File15.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "19",
+                    "uid": "1556150433669771:51275",
+                    "name": "Cup",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "20",
+                    "uid": "1556150472844331:51921",
+                    "name": "Files\/File19",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "21",
+                    "uid": "1556150473219332:51956",
+                    "name": "Files\/File21.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "22",
+                    "uid": "1556150473424917:51971",
+                    "name": "Files\/File23.jpg",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "23",
+                    "uid": "1556150984423818:60911",
+                    "name": "Files\/File25.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "24",
+                    "uid": "1556151057006326:62101",
+                    "name": "Files\/File26",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "25",
+                    "uid": "1556151315121651:66657",
+                    "name": "Files\/File28.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                }
+            ]
+        },
+        "InspectorComponent": {
+            "Component": {
+                "FaceStretchVisual": {
+                    "uidsToFeatureNamesWithIntensity": ""
+                },
+                "ScreenTransform": {
+                    "uidData": "",
+                    "generalData": ""
+                }
+            }
+        },
+        "RenderOrderComponent": {
+            "autoRenderOrder": {
+                "0": "1517446348227994:84813",
+                "1": "1528843813151434:5126",
+                "2": "1556148863802760:34013",
+                "3": "1556148959732976:34399",
+                "4": "1556148979376649:34794",
+                "5": "1556149226195954:35309",
+                "6": "1556149226196476:35316",
+                "7": "1556149422035381:39126",
+                "8": "1556150433476783:51059",
+                "9": "1556150433477200:51066",
+                "10": "1556150433657834:51139",
+                "11": "1556150984483760:60986",
+                "12": "1556151315184364:66732"
+            }
+        },
+        "LayerComponent": {
+            "nextLayerId": "2",
+            "showOrthographicLayer": "false",
+            "layersInfo": [
+                {
+                    "layerId": "0",
+                    "layerName": "Default Layer",
+                    "layerMask": "1"
+                },
+                {
+                    "layerId": "1",
+                    "layerName": "Orthographic Layer",
+                    "layerMask": "1048576"
+                }
+            ]
+        },
+        "IFileManager": {
+            "pathes": [
+                {
+                    "k": "1",
+                    "v": "Files\/File1.png"
+                },
+                {
+                    "k": "2",
+                    "v": "Files\/File2.png"
+                },
+                {
+                    "k": "3",
+                    "v": "Files\/File3.js"
+                },
+                {
+                    "k": "4",
+                    "v": "Files\/File4"
+                },
+                {
+                    "k": "5",
+                    "v": "Files\/File5.lsmat"
+                },
+                {
+                    "k": "6",
+                    "v": "Files\/File6.mesh"
+                },
+                {
+                    "k": "7",
+                    "v": "Files\/File7.mesh"
+                },
+                {
+                    "k": "8",
+                    "v": "Files\/File8"
+                },
+                {
+                    "k": "9",
+                    "v": "Files\/File9.lsmat"
+                },
+                {
+                    "k": "10",
+                    "v": "Files\/File10.oprfb"
+                },
+                {
+                    "k": "11",
+                    "v": "Files\/File11.fbx"
+                },
+                {
+                    "k": "12",
+                    "v": "Files\/File12.oprfb"
+                },
+                {
+                    "k": "13",
+                    "v": "Files\/File13.js"
+                },
+                {
+                    "k": "14",
+                    "v": "Files\/File14.mesh"
+                },
+                {
+                    "k": "15",
+                    "v": "Files\/File15.mesh"
+                },
+                {
+                    "k": "16",
+                    "v": "Files\/File16.oprfb"
+                },
+                {
+                    "k": "17",
+                    "v": "Files\/File17.fbx"
+                },
+                {
+                    "k": "18",
+                    "v": "Files\/File18.oprfb"
+                },
+                {
+                    "k": "19",
+                    "v": "Files\/File19"
+                },
+                {
+                    "k": "20",
+                    "v": "Files\/File20.lsmat"
+                },
+                {
+                    "k": "21",
+                    "v": "Files\/File21.png"
+                },
+                {
+                    "k": "22",
+                    "v": "Files\/File22.png"
+                },
+                {
+                    "k": "23",
+                    "v": "Files\/File23.png"
+                },
+                {
+                    "k": "24",
+                    "v": "Files\/File24.png"
+                },
+                {
+                    "k": "25",
+                    "v": "Files\/File25.mesh"
+                },
+                {
+                    "k": "26",
+                    "v": "Files\/File26"
+                },
+                {
+                    "k": "27",
+                    "v": "Files\/File27.lsmat"
+                },
+                {
+                    "k": "28",
+                    "v": "Files\/File28.mesh"
+                }
+            ]
+        },
+        "WorldComponent": {
+            "sceneFile": "scene.scn",
+            "sceneType": "binaryScene"
+        }
+    },
+    "controller": {
+        "IResourceController": {
+            "public": {
+                "pathes": [
+                    {
+                        "k": "1",
+                        "v": "echopark_diff.png"
+                    },
+                    {
+                        "k": "2",
+                        "v": "echopark_spec.png"
+                    },
+                    {
+                        "k": "30",
+                        "v": "Scripts\/CupController.js"
+                    },
+                    {
+                        "k": "31",
+                        "v": "Materials\/Matte Shadow.lsmat"
+                    },
+                    {
+                        "k": "32",
+                        "v": "Meshes\/Plane.mesh"
+                    },
+                    {
+                        "k": "33",
+                        "v": "Objects\/Ball.fbx"
+                    },
+                    {
+                        "k": "34",
+                        "v": "..\/AdditionalFiles\/Ball\/Materials"
+                    },
+                    {
+                        "k": "35",
+                        "v": "..\/AdditionalFiles\/Ball\/Materials\/Material.lsmat"
+                    },
+                    {
+                        "k": "36",
+                        "v": "Scripts\/BallController.js"
+                    },
+                    {
+                        "k": "63",
+                        "v": "Objects\/Cup.fbx"
+                    },
+                    {
+                        "k": "64",
+                        "v": "..\/AdditionalFiles\/Cup\/Materials"
+                    },
+                    {
+                        "k": "67",
+                        "v": "Textures"
+                    },
+                    {
+                        "k": "68",
+                        "v": "Textures\/Base.png"
+                    },
+                    {
+                        "k": "69",
+                        "v": "Textures\/Normal.png"
+                    },
+                    {
+                        "k": "70",
+                        "v": "..\/AdditionalFiles\/Cup\/Materials\/Diffuse.lsmat"
+                    },
+                    {
+                        "k": "71",
+                        "v": "Meshes\/Box.mesh"
+                    },
+                    {
+                        "k": "72",
+                        "v": "Materials\/Invisible.lsmat"
+                    },
+                    {
+                        "k": "73",
+                        "v": "Meshes\/Sphere.mesh"
+                    },
+                    {
+                        "k": "74",
+                        "v": "Materials"
+                    },
+                    {
+                        "k": "75",
+                        "v": "Objects"
+                    },
+                    {
+                        "k": "76",
+                        "v": "Meshes"
+                    },
+                    {
+                        "k": "77",
+                        "v": "Scripts"
+                    }
+                ],
+                "hashes": [
+                    {
+                        "k": "1",
+                        "v": "671afbc1d6810060ccbaac866a91cfa1"
+                    },
+                    {
+                        "k": "2",
+                        "v": "8e599835d0d45c5879eafb1f474469cd"
+                    },
+                    {
+                        "k": "30",
+                        "v": "245c73678043b6e59d42d93bb70d2102"
+                    },
+                    {
+                        "k": "31",
+                        "v": "25f8e16eec95fd2f69870394fa815073"
+                    },
+                    {
+                        "k": "32",
+                        "v": "4649d59d58657e786eebaad58a052d2a"
+                    },
+                    {
+                        "k": "33",
+                        "v": "4ed3492eafa8d179a5bf45a301d6e4e7"
+                    },
+                    {
+                        "k": "35",
+                        "v": "5980bd31b3d935ecc8dea16610051850"
+                    },
+                    {
+                        "k": "36",
+                        "v": "7b89a9ffe6632646f0a4c37492aad4f8"
+                    },
+                    {
+                        "k": "63",
+                        "v": "633e4d9e9936ebb35df7a339d0cd6262"
+                    },
+                    {
+                        "k": "68",
+                        "v": "cb607d7b25a160872c49fb4d2635cc33"
+                    },
+                    {
+                        "k": "69",
+                        "v": "8a0173d0b987e1abfebd4ef9e3304c0b"
+                    },
+                    {
+                        "k": "70",
+                        "v": "27a618181499b284c427006690663dd8"
+                    },
+                    {
+                        "k": "71",
+                        "v": "0f22bac28f4bb7f9303722acb5d035e0"
+                    },
+                    {
+                        "k": "72",
+                        "v": "500264041a5b9b3b93e151a414be0047"
+                    },
+                    {
+                        "k": "73",
+                        "v": "0484abd87ee78b2745eb9563b19fd6a2"
+                    }
+                ],
+                "publicState": {
+                    "tree": {
+                        "isFolder": "true",
+                        "lastModified": "2019-04-24T20:25:02",
+                        "name": "Public",
+                        "hash": "afce1cbeff82261b93ca1524c907efff",
+                        "children": [
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2019-04-10T18:23:20",
+                                "name": "echopark_diff.png",
+                                "hash": "671afbc1d6810060ccbaac866a91cfa1",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2019-04-10T18:23:20",
+                                "name": "echopark_spec.png",
+                                "hash": "8e599835d0d45c5879eafb1f474469cd",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2019-04-10T18:23:20",
+                                "name": "folder.lock",
+                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2019-04-24T20:24:07",
+                                "name": "Materials",
+                                "hash": "00fa0379870d2238bee2a753f5d7d255",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-04-24T20:23:53",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-04-24T20:24:07",
+                                        "name": "Invisible.lsmat",
+                                        "hash": "500264041a5b9b3b93e151a414be0047",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-04-24T20:24:05",
+                                        "name": "Matte Shadow.lsmat",
+                                        "hash": "25f8e16eec95fd2f69870394fa815073",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2019-04-24T20:24:51",
+                                "name": "Meshes",
+                                "hash": "19c0f8f101bd2aeac040b441b2c79abb",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-04-24T20:09:44",
+                                        "name": "Box.mesh",
+                                        "hash": "0f22bac28f4bb7f9303722acb5d035e0",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-04-24T20:24:39",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-04-24T19:36:19",
+                                        "name": "Plane.mesh",
+                                        "hash": "4649d59d58657e786eebaad58a052d2a",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-04-24T20:15:14",
+                                        "name": "Sphere.mesh",
+                                        "hash": "0484abd87ee78b2745eb9563b19fd6a2",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2019-04-24T20:24:36",
+                                "name": "Objects",
+                                "hash": "e35fadf2e15abd1435adf068d1e77945",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-04-24T19:40:38",
+                                        "name": "Ball.fbx",
+                                        "hash": "4ed3492eafa8d179a5bf45a301d6e4e7",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-04-24T20:00:21",
+                                        "name": "Cup.fbx",
+                                        "hash": "633e4d9e9936ebb35df7a339d0cd6262",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-04-24T20:24:14",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2019-04-24T20:37:21",
+                                "name": "Scripts",
+                                "hash": "c3b89d676a2313fdc0734cfd6944103e",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-04-24T21:50:19",
+                                        "name": "BallController.js",
+                                        "hash": "7b89a9ffe6632646f0a4c37492aad4f8",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-04-24T20:08:55",
+                                        "name": "CupController.js",
+                                        "hash": "245c73678043b6e59d42d93bb70d2102",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-04-24T20:24:54",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2019-04-24T20:01:13",
+                                "name": "Textures",
+                                "hash": "b61ede69b1abf91e33aa8e462b6a3de7",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-04-24T20:01:13",
+                                        "name": "Base.png",
+                                        "hash": "cb607d7b25a160872c49fb4d2635cc33",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-04-24T20:01:13",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-04-24T20:01:13",
+                                        "name": "Normal.png",
+                                        "hash": "8a0173d0b987e1abfebd4ef9e3304c0b",
+                                        "children": ""
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "complexResources": ""
+            },
+            "tree": {
+                "name": "",
+                "type": "0",
+                "subtype": "-1",
+                "resourceId": "-1",
+                "dependency": "0",
+                "uid": "-1:-1",
+                "fileId": "18446744073709551615",
+                "originalId": "18446744073709551615",
+                "publicId": "18446744073709551615",
+                "source": "",
+                "additional": "",
+                "resources": [
+                    {
+                        "name": "Render Target",
+                        "type": "1",
+                        "subtype": "1",
+                        "resourceId": "1",
+                        "dependency": "0",
+                        "uid": "1:1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "18446744073709551615",
+                        "source": "",
+                        "additional": ""
+                    },
+                    {
+                        "name": "Device Camera Texture",
+                        "type": "1",
+                        "subtype": "3",
+                        "resourceId": "2",
+                        "dependency": "0",
+                        "uid": "2:2",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "18446744073709551615",
+                        "source": "",
+                        "additional": ""
+                    },
+                    {
+                        "name": "echopark_diff",
+                        "type": "1",
+                        "subtype": "9",
+                        "resourceId": "8",
+                        "dependency": "0",
+                        "uid": "1517446348230286:84828",
+                        "fileId": "1",
+                        "originalId": "18446744073709551615",
+                        "publicId": "1",
+                        "source": "",
+                        "additional": ""
+                    },
+                    {
+                        "name": "echopark_spec",
+                        "type": "1",
+                        "subtype": "9",
+                        "resourceId": "9",
+                        "dependency": "0",
+                        "uid": "1517446348234137:84840",
+                        "fileId": "2",
+                        "originalId": "18446744073709551615",
+                        "publicId": "2",
+                        "source": "",
+                        "additional": ""
+                    },
+                    {
+                        "name": "Textures",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "67",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "Base",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "21",
+                                "dependency": "0",
+                                "uid": "1556150473219332:51956",
+                                "fileId": "21",
+                                "originalId": "22",
+                                "publicId": "68",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Normal",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "22",
+                                "dependency": "0",
+                                "uid": "1556150473424917:51971",
+                                "fileId": "23",
+                                "originalId": "24",
+                                "publicId": "69",
+                                "source": "",
+                                "additional": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Materials",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "74",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "Matte Shadow",
+                                "type": "2",
+                                "subtype": "0",
+                                "resourceId": "11",
+                                "dependency": "0",
+                                "uid": "1556148979124249:34763",
+                                "fileId": "4",
+                                "originalId": "5",
+                                "publicId": "31",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Invisible",
+                                "type": "2",
+                                "subtype": "0",
+                                "resourceId": "24",
+                                "dependency": "0",
+                                "uid": "1556151057006326:62101",
+                                "fileId": "26",
+                                "originalId": "27",
+                                "publicId": "72",
+                                "source": "C:\/Program Files\/Snap Inc\/Lens Studio\/\/Studio3DResources.bundle\/\/materials\/Diffuse.lsmat",
+                                "additional": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Objects",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "75",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "Cup",
+                                "type": "18",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "2",
+                                "uid": "-1:-1",
+                                "fileId": "17",
+                                "originalId": "18446744073709551615",
+                                "publicId": "63",
+                                "source": "C:\/Users\/Jake\/Desktop\/CupPong\/Cup.fbx",
+                                "additional": "",
+                                "resources": [
+                                    {
+                                        "name": "Meshes",
+                                        "type": "0",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
+                                        "dependency": "1",
+                                        "uid": "-1:-1",
+                                        "fileId": "18446744073709551615",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "18446744073709551615",
+                                        "source": "",
+                                        "additional": "",
+                                        "resources": [
+                                            {
+                                                "name": "Cylinder",
+                                                "type": "3",
+                                                "subtype": "0",
+                                                "resourceId": "17",
+                                                "dependency": "1",
+                                                "uid": "1556150433334855:51033",
+                                                "fileId": "14",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": ""
+                                            },
+                                            {
+                                                "name": "Circle",
+                                                "type": "3",
+                                                "subtype": "0",
+                                                "resourceId": "18",
+                                                "dependency": "1",
+                                                "uid": "1556150433422388:51046",
+                                                "fileId": "15",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Animations",
+                                        "type": "0",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
+                                        "dependency": "1",
+                                        "uid": "-1:-1",
+                                        "fileId": "18446744073709551615",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "18446744073709551615",
+                                        "source": "",
+                                        "additional": "",
+                                        "resources": ""
+                                    },
+                                    {
+                                        "name": "Materials",
+                                        "type": "0",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
+                                        "dependency": "0",
+                                        "uid": "-1:-1",
+                                        "fileId": "18446744073709551615",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "64",
+                                        "source": "",
+                                        "additional": "",
+                                        "resources": [
+                                            {
+                                                "name": "Diffuse",
+                                                "type": "2",
+                                                "subtype": "0",
+                                                "resourceId": "20",
+                                                "dependency": "0",
+                                                "uid": "1556150472844331:51921",
+                                                "fileId": "19",
+                                                "originalId": "20",
+                                                "publicId": "70",
+                                                "source": "C:\/Program Files\/Snap Inc\/Lens Studio\/\/Studio3DResources.bundle\/\/materials\/Diffuse.lsmat",
+                                                "additional": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Cup",
+                                        "type": "12",
+                                        "subtype": "-1",
+                                        "resourceId": "19",
+                                        "dependency": "1",
+                                        "uid": "1556150433669771:51275",
+                                        "fileId": "16",
+                                        "originalId": "18",
+                                        "publicId": "18446744073709551615",
+                                        "source": "",
+                                        "additional": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "name": "Ball",
+                                "type": "18",
+                                "subtype": "-1",
+                                "resourceId": "-1",
+                                "dependency": "2",
+                                "uid": "-1:-1",
+                                "fileId": "11",
+                                "originalId": "18446744073709551615",
+                                "publicId": "33",
+                                "source": "C:\/Users\/Jake\/Desktop\/CupPong\/Ball.fbx",
+                                "additional": "",
+                                "resources": [
+                                    {
+                                        "name": "Meshes",
+                                        "type": "0",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
+                                        "dependency": "1",
+                                        "uid": "-1:-1",
+                                        "fileId": "18446744073709551615",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "18446744073709551615",
+                                        "source": "",
+                                        "additional": "",
+                                        "resources": [
+                                            {
+                                                "name": "Sphere",
+                                                "type": "3",
+                                                "subtype": "0",
+                                                "resourceId": "13",
+                                                "dependency": "1",
+                                                "uid": "1556149225957532:35280",
+                                                "fileId": "7",
+                                                "originalId": "18446744073709551615",
+                                                "publicId": "18446744073709551615",
+                                                "source": "",
+                                                "additional": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Animations",
+                                        "type": "0",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
+                                        "dependency": "1",
+                                        "uid": "-1:-1",
+                                        "fileId": "18446744073709551615",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "18446744073709551615",
+                                        "source": "",
+                                        "additional": "",
+                                        "resources": ""
+                                    },
+                                    {
+                                        "name": "Materials",
+                                        "type": "0",
+                                        "subtype": "-1",
+                                        "resourceId": "-1",
+                                        "dependency": "0",
+                                        "uid": "-1:-1",
+                                        "fileId": "18446744073709551615",
+                                        "originalId": "18446744073709551615",
+                                        "publicId": "34",
+                                        "source": "",
+                                        "additional": "",
+                                        "resources": [
+                                            {
+                                                "name": "Material",
+                                                "type": "2",
+                                                "subtype": "0",
+                                                "resourceId": "14",
+                                                "dependency": "0",
+                                                "uid": "1556149225993920:35293",
+                                                "fileId": "8",
+                                                "originalId": "9",
+                                                "publicId": "35",
+                                                "source": "",
+                                                "additional": ""
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "name": "Ball",
+                                        "type": "12",
+                                        "subtype": "-1",
+                                        "resourceId": "15",
+                                        "dependency": "1",
+                                        "uid": "1556149226207533:35452",
+                                        "fileId": "10",
+                                        "originalId": "12",
+                                        "publicId": "18446744073709551615",
+                                        "source": "",
+                                        "additional": ""
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Meshes",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "76",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "Box",
+                                "type": "3",
+                                "subtype": "0",
+                                "resourceId": "23",
+                                "dependency": "0",
+                                "uid": "1556150984423818:60911",
+                                "fileId": "25",
+                                "originalId": "18446744073709551615",
+                                "publicId": "71",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Sphere",
+                                "type": "3",
+                                "subtype": "0",
+                                "resourceId": "25",
+                                "dependency": "0",
+                                "uid": "1556151315121651:66657",
+                                "fileId": "28",
+                                "originalId": "18446744073709551615",
+                                "publicId": "73",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Plane",
+                                "type": "3",
+                                "subtype": "0",
+                                "resourceId": "12",
+                                "dependency": "0",
+                                "uid": "1556148979351305:34779",
+                                "fileId": "6",
+                                "originalId": "18446744073709551615",
+                                "publicId": "32",
+                                "source": "",
+                                "additional": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Scripts",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "77",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "CupController",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "10",
+                                "dependency": "0",
+                                "uid": "1556148860785099:33949",
+                                "fileId": "3",
+                                "originalId": "18446744073709551615",
+                                "publicId": "30",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "BallController",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "16",
+                                "dependency": "0",
+                                "uid": "1556149410452121:38568",
+                                "fileId": "13",
+                                "originalId": "18446744073709551615",
+                                "publicId": "36",
+                                "source": "",
+                                "additional": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "InspectorController": {
+            "selection": {
+                "resources": [
+                    {
+                        "uid": "1556149410452121:38568",
+                        "path_list": [
+                            "Scripts",
+                            "BallController"
+                        ]
+                    }
+                ]
+            }
+        },
+        "EffectsController": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "5": "",
+            "6": "",
+            "7": "",
+            "8": "",
+            "10": "",
+            "11": "",
+            "12": "",
+            "13": "",
+            "14": "",
+            "15": "",
+            "16": "",
+            "17": "",
+            "18": "",
+            "19": "",
+            "20": ""
+        },
+        "ObjectPrefabController": {
+            "state": {
+                "objectToInfo": [
+                    {
+                        "k": "1556149226195954:35309",
+                        "v": {
+                            "prefab": "1556149226207533:35452",
+                            "isActive": "true",
+                            "mapping": [
+                                {
+                                    "k": "1556149242055788:35695",
+                                    "v": "1556149226195954:35309"
+                                },
+                                {
+                                    "k": "1556149242056471:35702",
+                                    "v": "1556149226196476:35316"
+                                },
+                                {
+                                    "k": "1556149242056864:35706",
+                                    "v": "1556149226196855:35320"
+                                },
+                                {
+                                    "k": "1556149242062947:35726",
+                                    "v": "1556149226197663:35340"
+                                },
+                                {
+                                    "k": "1556149242063436:35730",
+                                    "v": "1556149226198031:35344"
+                                },
+                                {
+                                    "k": "1556149242064244:35744",
+                                    "v": "1556149226198784:35358"
+                                },
+                                {
+                                    "k": "1556149242064661:35748",
+                                    "v": "1556149226199156:35362"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "k": "1556150433476783:51059",
+                        "v": {
+                            "prefab": "1556150433669771:51275",
+                            "isActive": "true",
+                            "mapping": [
+                                {
+                                    "k": "1556150433476783:51059",
+                                    "v": "1556150433476783:51059"
+                                },
+                                {
+                                    "k": "1556150433477200:51066",
+                                    "v": "1556150433477200:51066"
+                                },
+                                {
+                                    "k": "1556150433477443:51070",
+                                    "v": "1556150433477443:51070"
+                                },
+                                {
+                                    "k": "1556150433657438:51135",
+                                    "v": "1556150433657438:51135"
+                                },
+                                {
+                                    "k": "1556150433657834:51139",
+                                    "v": "1556150433657834:51139"
+                                },
+                                {
+                                    "k": "1556150433658073:51143",
+                                    "v": "1556150433658073:51143"
+                                },
+                                {
+                                    "k": "1556150433658885:51163",
+                                    "v": "1556150433658885:51163"
+                                },
+                                {
+                                    "k": "1556150433659130:51167",
+                                    "v": "1556150433659130:51167"
+                                },
+                                {
+                                    "k": "1556150433659947:51181",
+                                    "v": "1556150433659947:51181"
+                                },
+                                {
+                                    "k": "1556150433660204:51185",
+                                    "v": "1556150433660204:51185"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            "importInfo": [
+                {
+                    "k": "1556149226207533:35452",
+                    "v": [
+                        {
+                            "k": "",
+                            "v": "1556149242055788:35695"
+                        },
+                        {
+                            "k": [
+                                "Camera"
+                            ],
+                            "v": "1556149242064244:35744"
+                        },
+                        {
+                            "k": [
+                                "Camera",
+                                "Component.Camera"
+                            ],
+                            "v": "1556149242064661:35748"
+                        },
+                        {
+                            "k": [
+                                "Lamp"
+                            ],
+                            "v": "1556149242062947:35726"
+                        },
+                        {
+                            "k": [
+                                "Lamp",
+                                "Component.LightSource"
+                            ],
+                            "v": "1556149242063436:35730"
+                        },
+                        {
+                            "k": [
+                                "Sphere"
+                            ],
+                            "v": "1556149242056471:35702"
+                        },
+                        {
+                            "k": [
+                                "Sphere",
+                                "Component.MeshVisual"
+                            ],
+                            "v": "1556149242056864:35706"
+                        }
+                    ]
+                },
+                {
+                    "k": "1556150433669771:51275",
+                    "v": [
+                        {
+                            "k": "",
+                            "v": "1556150433476783:51059"
+                        },
+                        {
+                            "k": [
+                                "Camera"
+                            ],
+                            "v": "1556150433659947:51181"
+                        },
+                        {
+                            "k": [
+                                "Camera",
+                                "Component.Camera"
+                            ],
+                            "v": "1556150433660204:51185"
+                        },
+                        {
+                            "k": [
+                                "Circle"
+                            ],
+                            "v": "1556150433657834:51139"
+                        },
+                        {
+                            "k": [
+                                "Circle",
+                                "Component.MeshVisual"
+                            ],
+                            "v": "1556150433658073:51143"
+                        },
+                        {
+                            "k": [
+                                "Circle.001"
+                            ],
+                            "v": "1556150433657438:51135"
+                        },
+                        {
+                            "k": [
+                                "Cylinder"
+                            ],
+                            "v": "1556150433477200:51066"
+                        },
+                        {
+                            "k": [
+                                "Cylinder",
+                                "Component.MeshVisual"
+                            ],
+                            "v": "1556150433477443:51070"
+                        },
+                        {
+                            "k": [
+                                "Lamp"
+                            ],
+                            "v": "1556150433658885:51163"
+                        },
+                        {
+                            "k": [
+                                "Lamp",
+                                "Component.LightSource"
+                            ],
+                            "v": "1556150433659130:51167"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
