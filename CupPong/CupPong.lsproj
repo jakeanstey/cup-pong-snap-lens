@@ -3,7 +3,7 @@
     "document_id": "gkLONzvidqm-0plDisZD",
     "original_document_id": "Hx_81CKClnWtxw19993O",
     "version": "14",
-    "lastChanged": "1556157161117",
+    "lastChanged": "1556763427246",
     "preview": "",
     "videoPreview": "",
     "videoPreviewUpdateTime": "",
@@ -29,6 +29,13 @@
             "collapsedList": [
                 [
                     [
+                        "Fonts"
+                    ],
+                    [
+                        "Fonts",
+                        "VT323"
+                    ],
+                    [
                         "Materials"
                     ],
                     [
@@ -49,10 +56,6 @@
                     [
                         "Meshes",
                         "Plane"
-                    ],
-                    [
-                        "Meshes",
-                        "Sphere"
                     ],
                     [
                         "Objects"
@@ -145,10 +148,16 @@
                         "Normal"
                     ],
                     [
+                        "done"
+                    ],
+                    [
                         "echopark_diff"
                     ],
                     [
                         "echopark_spec"
+                    ],
+                    [
+                        "move"
                     ]
                 ]
             ]
@@ -156,8 +165,6 @@
         "SceneTreeUiComponent": {
             "collapsedList": [
                 [
-                    "1556148863802760:34013",
-                    "1556149226195954:35309",
                     "1556150433476783:51059"
                 ]
             ]
@@ -339,8 +346,24 @@
                 },
                 {
                     "resId": "25",
-                    "uid": "1556151315121651:66657",
-                    "name": "Files\/File28.mesh",
+                    "uid": "1556758857375338:62781",
+                    "name": "Files\/File28.ttf",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "26",
+                    "uid": "1556761108617399:128252",
+                    "name": "Files\/File29.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "27",
+                    "uid": "1556761180618925:129692",
+                    "name": "Files\/File31.png",
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
@@ -372,7 +395,10 @@
                 "9": "1556150433477200:51066",
                 "10": "1556150433657834:51139",
                 "11": "1556150984483760:60986",
-                "12": "1556151315184364:66732"
+                "12": "1556751087294388:26463",
+                "13": "1556758678991064:55558",
+                "14": "1556761269847822:133054",
+                "15": "1556761281138533:135053"
             }
         },
         "LayerComponent": {
@@ -503,7 +529,23 @@
                 },
                 {
                     "k": "28",
-                    "v": "Files\/File28.mesh"
+                    "v": "Files\/File28.ttf"
+                },
+                {
+                    "k": "29",
+                    "v": "Files\/File29.png"
+                },
+                {
+                    "k": "30",
+                    "v": "Files\/File30.png"
+                },
+                {
+                    "k": "31",
+                    "v": "Files\/File31.png"
+                },
+                {
+                    "k": "32",
+                    "v": "Files\/File32.png"
                 }
             ]
         },
@@ -525,84 +567,96 @@
                         "v": "echopark_spec.png"
                     },
                     {
-                        "k": "30",
-                        "v": "Scripts\/CupController.js"
-                    },
-                    {
-                        "k": "31",
-                        "v": "Materials\/Matte Shadow.lsmat"
-                    },
-                    {
-                        "k": "32",
-                        "v": "Meshes\/Plane.mesh"
-                    },
-                    {
-                        "k": "33",
-                        "v": "Objects\/Ball.fbx"
-                    },
-                    {
-                        "k": "34",
-                        "v": "..\/AdditionalFiles\/Ball\/Materials"
-                    },
-                    {
-                        "k": "35",
-                        "v": "..\/AdditionalFiles\/Ball\/Materials\/Material.lsmat"
-                    },
-                    {
-                        "k": "36",
-                        "v": "Scripts\/BallController.js"
-                    },
-                    {
-                        "k": "63",
-                        "v": "Objects\/Cup.fbx"
-                    },
-                    {
-                        "k": "64",
-                        "v": "..\/AdditionalFiles\/Cup\/Materials"
-                    },
-                    {
-                        "k": "67",
+                        "k": "3",
                         "v": "Textures"
                     },
                     {
-                        "k": "68",
+                        "k": "4",
                         "v": "Textures\/Base.png"
                     },
                     {
-                        "k": "69",
+                        "k": "5",
                         "v": "Textures\/Normal.png"
                     },
                     {
-                        "k": "70",
-                        "v": "..\/AdditionalFiles\/Cup\/Materials\/Diffuse.lsmat"
-                    },
-                    {
-                        "k": "71",
-                        "v": "Meshes\/Box.mesh"
-                    },
-                    {
-                        "k": "72",
-                        "v": "Materials\/Invisible.lsmat"
-                    },
-                    {
-                        "k": "73",
-                        "v": "Meshes\/Sphere.mesh"
-                    },
-                    {
-                        "k": "74",
+                        "k": "6",
                         "v": "Materials"
                     },
                     {
-                        "k": "75",
+                        "k": "7",
+                        "v": "Materials\/Matte Shadow.lsmat"
+                    },
+                    {
+                        "k": "8",
+                        "v": "Materials\/Invisible.lsmat"
+                    },
+                    {
+                        "k": "9",
                         "v": "Objects"
                     },
                     {
-                        "k": "76",
+                        "k": "10",
+                        "v": "Objects\/Cup.fbx"
+                    },
+                    {
+                        "k": "11",
+                        "v": "..\/AdditionalFiles\/Objects\/Cup\/Materials"
+                    },
+                    {
+                        "k": "12",
+                        "v": "..\/AdditionalFiles\/Objects\/Cup\/Materials\/Diffuse.lsmat"
+                    },
+                    {
+                        "k": "13",
+                        "v": "Objects\/Ball.fbx"
+                    },
+                    {
+                        "k": "14",
+                        "v": "..\/AdditionalFiles\/Objects\/Ball\/Materials"
+                    },
+                    {
+                        "k": "15",
+                        "v": "..\/AdditionalFiles\/Objects\/Ball\/Materials\/Material.lsmat"
+                    },
+                    {
+                        "k": "16",
                         "v": "Meshes"
                     },
                     {
-                        "k": "77",
+                        "k": "17",
+                        "v": "Meshes\/Box.mesh"
+                    },
+                    {
+                        "k": "19",
+                        "v": "Meshes\/Plane.mesh"
+                    },
+                    {
+                        "k": "20",
                         "v": "Scripts"
+                    },
+                    {
+                        "k": "21",
+                        "v": "Scripts\/CupController.js"
+                    },
+                    {
+                        "k": "22",
+                        "v": "Scripts\/BallController.js"
+                    },
+                    {
+                        "k": "23",
+                        "v": "Fonts\/VT323.ttf"
+                    },
+                    {
+                        "k": "24",
+                        "v": "Fonts"
+                    },
+                    {
+                        "k": "25",
+                        "v": "move.png"
+                    },
+                    {
+                        "k": "26",
+                        "v": "done.png"
                     }
                 ],
                 "hashes": [
@@ -615,174 +669,215 @@
                         "v": "8e599835d0d45c5879eafb1f474469cd"
                     },
                     {
-                        "k": "30",
-                        "v": "245c73678043b6e59d42d93bb70d2102"
-                    },
-                    {
-                        "k": "31",
-                        "v": "25f8e16eec95fd2f69870394fa815073"
-                    },
-                    {
-                        "k": "32",
-                        "v": "4649d59d58657e786eebaad58a052d2a"
-                    },
-                    {
-                        "k": "33",
-                        "v": "4ed3492eafa8d179a5bf45a301d6e4e7"
-                    },
-                    {
-                        "k": "35",
-                        "v": "5980bd31b3d935ecc8dea16610051850"
-                    },
-                    {
-                        "k": "36",
-                        "v": "7b89a9ffe6632646f0a4c37492aad4f8"
-                    },
-                    {
-                        "k": "63",
-                        "v": "633e4d9e9936ebb35df7a339d0cd6262"
-                    },
-                    {
-                        "k": "68",
+                        "k": "4",
                         "v": "cb607d7b25a160872c49fb4d2635cc33"
                     },
                     {
-                        "k": "69",
+                        "k": "5",
                         "v": "8a0173d0b987e1abfebd4ef9e3304c0b"
                     },
                     {
-                        "k": "70",
+                        "k": "7",
+                        "v": "0cb914969e2e6cb7663ff5260a6e6006"
+                    },
+                    {
+                        "k": "8",
+                        "v": "33749c88ebb5bbb53fab525c84473100"
+                    },
+                    {
+                        "k": "10",
+                        "v": "633e4d9e9936ebb35df7a339d0cd6262"
+                    },
+                    {
+                        "k": "12",
                         "v": "27a618181499b284c427006690663dd8"
                     },
                     {
-                        "k": "71",
+                        "k": "13",
+                        "v": "4ed3492eafa8d179a5bf45a301d6e4e7"
+                    },
+                    {
+                        "k": "15",
+                        "v": "5980bd31b3d935ecc8dea16610051850"
+                    },
+                    {
+                        "k": "17",
                         "v": "0f22bac28f4bb7f9303722acb5d035e0"
                     },
                     {
-                        "k": "72",
-                        "v": "500264041a5b9b3b93e151a414be0047"
+                        "k": "18",
+                        "v": "0484abd87ee78b2745eb9563b19fd6a2"
                     },
                     {
-                        "k": "73",
-                        "v": "0484abd87ee78b2745eb9563b19fd6a2"
+                        "k": "19",
+                        "v": "4649d59d58657e786eebaad58a052d2a"
+                    },
+                    {
+                        "k": "21",
+                        "v": "245c73678043b6e59d42d93bb70d2102"
+                    },
+                    {
+                        "k": "22",
+                        "v": "b17d9fe3508302c332924a7f828a3000"
+                    },
+                    {
+                        "k": "23",
+                        "v": "d55abc3c7d1a4719dea9fa15ccec203f"
+                    },
+                    {
+                        "k": "25",
+                        "v": "e00a6d686d46c5fafc4639414ef2e5aa"
+                    },
+                    {
+                        "k": "26",
+                        "v": "1a83e97f96d9a7ae7176dd1c614eb4f0"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2019-04-24T20:25:02",
+                        "lastModified": "2019-05-01T21:39:39",
                         "name": "Public",
-                        "hash": "afce1cbeff82261b93ca1524c907efff",
+                        "hash": "853e409a9a4786e7e5b97d56156c9c1c",
                         "children": [
                             {
                                 "isFolder": "false",
-                                "lastModified": "2019-04-10T18:23:20",
+                                "lastModified": "2019-05-01T21:40:04",
+                                "name": "done.png",
+                                "hash": "1a83e97f96d9a7ae7176dd1c614eb4f0",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2019-04-25T22:18:16",
                                 "name": "echopark_diff.png",
                                 "hash": "671afbc1d6810060ccbaac866a91cfa1",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2019-04-10T18:23:20",
+                                "lastModified": "2019-04-25T22:18:16",
                                 "name": "echopark_spec.png",
                                 "hash": "8e599835d0d45c5879eafb1f474469cd",
                                 "children": ""
                             },
                             {
                                 "isFolder": "false",
-                                "lastModified": "2019-04-10T18:23:20",
+                                "lastModified": "2019-04-25T22:18:22",
                                 "name": "folder.lock",
                                 "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                 "children": ""
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-04-24T20:24:07",
-                                "name": "Materials",
-                                "hash": "00fa0379870d2238bee2a753f5d7d255",
+                                "lastModified": "2019-05-01T21:06:11",
+                                "name": "Fonts",
+                                "hash": "6f33ec7a268d1868f51d38961e1639f3",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-04-24T20:23:53",
+                                        "lastModified": "2019-05-01T21:06:03",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-04-24T20:24:07",
-                                        "name": "Invisible.lsmat",
-                                        "hash": "500264041a5b9b3b93e151a414be0047",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2019-04-24T20:24:05",
-                                        "name": "Matte Shadow.lsmat",
-                                        "hash": "25f8e16eec95fd2f69870394fa815073",
+                                        "lastModified": "2019-02-05T15:46:40",
+                                        "name": "VT323.ttf",
+                                        "hash": "d55abc3c7d1a4719dea9fa15ccec203f",
                                         "children": ""
                                     }
                                 ]
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-04-24T20:24:51",
-                                "name": "Meshes",
-                                "hash": "19c0f8f101bd2aeac040b441b2c79abb",
+                                "lastModified": "2019-04-25T22:18:22",
+                                "name": "Materials",
+                                "hash": "8b8092ca0a91ceda5cd3e6932cd5cefc",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-04-24T20:09:44",
+                                        "lastModified": "2019-04-25T22:18:22",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-04-25T22:18:22",
+                                        "name": "Invisible.lsmat",
+                                        "hash": "33749c88ebb5bbb53fab525c84473100",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-04-25T22:18:21",
+                                        "name": "Matte Shadow.lsmat",
+                                        "hash": "0cb914969e2e6cb7663ff5260a6e6006",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2019-05-01T18:49:13",
+                                "name": "Meshes",
+                                "hash": "d7367b958f2d01b545e41f2bf750ffc1",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-04-25T22:18:16",
                                         "name": "Box.mesh",
                                         "hash": "0f22bac28f4bb7f9303722acb5d035e0",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-04-24T20:24:39",
+                                        "lastModified": "2019-04-25T22:18:22",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-04-24T19:36:19",
+                                        "lastModified": "2019-04-25T22:18:16",
                                         "name": "Plane.mesh",
                                         "hash": "4649d59d58657e786eebaad58a052d2a",
-                                        "children": ""
-                                    },
-                                    {
-                                        "isFolder": "false",
-                                        "lastModified": "2019-04-24T20:15:14",
-                                        "name": "Sphere.mesh",
-                                        "hash": "0484abd87ee78b2745eb9563b19fd6a2",
                                         "children": ""
                                     }
                                 ]
                             },
                             {
+                                "isFolder": "false",
+                                "lastModified": "2019-05-01T21:38:54",
+                                "name": "move.png",
+                                "hash": "e00a6d686d46c5fafc4639414ef2e5aa",
+                                "children": ""
+                            },
+                            {
                                 "isFolder": "true",
-                                "lastModified": "2019-04-24T20:24:36",
+                                "lastModified": "2019-04-25T22:18:22",
                                 "name": "Objects",
                                 "hash": "e35fadf2e15abd1435adf068d1e77945",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-04-24T19:40:38",
+                                        "lastModified": "2019-04-25T22:18:16",
                                         "name": "Ball.fbx",
                                         "hash": "4ed3492eafa8d179a5bf45a301d6e4e7",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-04-24T20:00:21",
+                                        "lastModified": "2019-04-25T22:18:16",
                                         "name": "Cup.fbx",
                                         "hash": "633e4d9e9936ebb35df7a339d0cd6262",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-04-24T20:24:14",
+                                        "lastModified": "2019-04-25T22:18:22",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -791,27 +886,27 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-04-24T20:37:21",
+                                "lastModified": "2019-04-25T22:18:22",
                                 "name": "Scripts",
-                                "hash": "c3b89d676a2313fdc0734cfd6944103e",
+                                "hash": "58818d557a440ebb0cbd4b1800be6853",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-04-24T21:50:19",
+                                        "lastModified": "2019-05-01T22:13:12",
                                         "name": "BallController.js",
-                                        "hash": "7b89a9ffe6632646f0a4c37492aad4f8",
+                                        "hash": "b17d9fe3508302c332924a7f828a3000",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-04-24T20:08:55",
+                                        "lastModified": "2019-04-25T22:18:16",
                                         "name": "CupController.js",
                                         "hash": "245c73678043b6e59d42d93bb70d2102",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-04-24T20:24:54",
+                                        "lastModified": "2019-04-25T22:18:22",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
@@ -820,27 +915,27 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-04-24T20:01:13",
+                                "lastModified": "2019-04-25T22:18:22",
                                 "name": "Textures",
                                 "hash": "b61ede69b1abf91e33aa8e462b6a3de7",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-04-24T20:01:13",
+                                        "lastModified": "2019-04-25T22:18:16",
                                         "name": "Base.png",
                                         "hash": "cb607d7b25a160872c49fb4d2635cc33",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-04-24T20:01:13",
+                                        "lastModified": "2019-04-25T22:18:22",
                                         "name": "folder.lock",
                                         "hash": "d41d8cd98f00b204e9800998ecf8427e",
                                         "children": ""
                                     },
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-04-24T20:01:13",
+                                        "lastModified": "2019-04-25T22:18:16",
                                         "name": "Normal.png",
                                         "hash": "8a0173d0b987e1abfebd4ef9e3304c0b",
                                         "children": ""
@@ -926,7 +1021,7 @@
                         "uid": "-1:-1",
                         "fileId": "18446744073709551615",
                         "originalId": "18446744073709551615",
-                        "publicId": "67",
+                        "publicId": "3",
                         "source": "",
                         "additional": "",
                         "resources": [
@@ -939,7 +1034,7 @@
                                 "uid": "1556150473219332:51956",
                                 "fileId": "21",
                                 "originalId": "22",
-                                "publicId": "68",
+                                "publicId": "4",
                                 "source": "",
                                 "additional": ""
                             },
@@ -952,7 +1047,7 @@
                                 "uid": "1556150473424917:51971",
                                 "fileId": "23",
                                 "originalId": "24",
-                                "publicId": "69",
+                                "publicId": "5",
                                 "source": "",
                                 "additional": ""
                             }
@@ -967,7 +1062,7 @@
                         "uid": "-1:-1",
                         "fileId": "18446744073709551615",
                         "originalId": "18446744073709551615",
-                        "publicId": "74",
+                        "publicId": "6",
                         "source": "",
                         "additional": "",
                         "resources": [
@@ -980,7 +1075,7 @@
                                 "uid": "1556148979124249:34763",
                                 "fileId": "4",
                                 "originalId": "5",
-                                "publicId": "31",
+                                "publicId": "7",
                                 "source": "",
                                 "additional": ""
                             },
@@ -993,7 +1088,7 @@
                                 "uid": "1556151057006326:62101",
                                 "fileId": "26",
                                 "originalId": "27",
-                                "publicId": "72",
+                                "publicId": "8",
                                 "source": "C:\/Program Files\/Snap Inc\/Lens Studio\/\/Studio3DResources.bundle\/\/materials\/Diffuse.lsmat",
                                 "additional": ""
                             }
@@ -1008,7 +1103,7 @@
                         "uid": "-1:-1",
                         "fileId": "18446744073709551615",
                         "originalId": "18446744073709551615",
-                        "publicId": "75",
+                        "publicId": "9",
                         "source": "",
                         "additional": "",
                         "resources": [
@@ -1021,7 +1116,7 @@
                                 "uid": "-1:-1",
                                 "fileId": "17",
                                 "originalId": "18446744073709551615",
-                                "publicId": "63",
+                                "publicId": "10",
                                 "source": "C:\/Users\/Jake\/Desktop\/CupPong\/Cup.fbx",
                                 "additional": "",
                                 "resources": [
@@ -1089,7 +1184,7 @@
                                         "uid": "-1:-1",
                                         "fileId": "18446744073709551615",
                                         "originalId": "18446744073709551615",
-                                        "publicId": "64",
+                                        "publicId": "11",
                                         "source": "",
                                         "additional": "",
                                         "resources": [
@@ -1102,7 +1197,7 @@
                                                 "uid": "1556150472844331:51921",
                                                 "fileId": "19",
                                                 "originalId": "20",
-                                                "publicId": "70",
+                                                "publicId": "12",
                                                 "source": "C:\/Program Files\/Snap Inc\/Lens Studio\/\/Studio3DResources.bundle\/\/materials\/Diffuse.lsmat",
                                                 "additional": ""
                                             }
@@ -1132,7 +1227,7 @@
                                 "uid": "-1:-1",
                                 "fileId": "11",
                                 "originalId": "18446744073709551615",
-                                "publicId": "33",
+                                "publicId": "13",
                                 "source": "C:\/Users\/Jake\/Desktop\/CupPong\/Ball.fbx",
                                 "additional": "",
                                 "resources": [
@@ -1187,7 +1282,7 @@
                                         "uid": "-1:-1",
                                         "fileId": "18446744073709551615",
                                         "originalId": "18446744073709551615",
-                                        "publicId": "34",
+                                        "publicId": "14",
                                         "source": "",
                                         "additional": "",
                                         "resources": [
@@ -1200,7 +1295,7 @@
                                                 "uid": "1556149225993920:35293",
                                                 "fileId": "8",
                                                 "originalId": "9",
-                                                "publicId": "35",
+                                                "publicId": "15",
                                                 "source": "",
                                                 "additional": ""
                                             }
@@ -1232,7 +1327,7 @@
                         "uid": "-1:-1",
                         "fileId": "18446744073709551615",
                         "originalId": "18446744073709551615",
-                        "publicId": "76",
+                        "publicId": "16",
                         "source": "",
                         "additional": "",
                         "resources": [
@@ -1245,20 +1340,7 @@
                                 "uid": "1556150984423818:60911",
                                 "fileId": "25",
                                 "originalId": "18446744073709551615",
-                                "publicId": "71",
-                                "source": "",
-                                "additional": ""
-                            },
-                            {
-                                "name": "Sphere",
-                                "type": "3",
-                                "subtype": "0",
-                                "resourceId": "25",
-                                "dependency": "0",
-                                "uid": "1556151315121651:66657",
-                                "fileId": "28",
-                                "originalId": "18446744073709551615",
-                                "publicId": "73",
+                                "publicId": "17",
                                 "source": "",
                                 "additional": ""
                             },
@@ -1271,7 +1353,7 @@
                                 "uid": "1556148979351305:34779",
                                 "fileId": "6",
                                 "originalId": "18446744073709551615",
-                                "publicId": "32",
+                                "publicId": "19",
                                 "source": "",
                                 "additional": ""
                             }
@@ -1286,7 +1368,7 @@
                         "uid": "-1:-1",
                         "fileId": "18446744073709551615",
                         "originalId": "18446744073709551615",
-                        "publicId": "77",
+                        "publicId": "20",
                         "source": "",
                         "additional": "",
                         "resources": [
@@ -1299,7 +1381,7 @@
                                 "uid": "1556148860785099:33949",
                                 "fileId": "3",
                                 "originalId": "18446744073709551615",
-                                "publicId": "30",
+                                "publicId": "21",
                                 "source": "",
                                 "additional": ""
                             },
@@ -1312,25 +1394,73 @@
                                 "uid": "1556149410452121:38568",
                                 "fileId": "13",
                                 "originalId": "18446744073709551615",
-                                "publicId": "36",
+                                "publicId": "22",
                                 "source": "",
                                 "additional": ""
                             }
                         ]
+                    },
+                    {
+                        "name": "Fonts",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "24",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "VT323",
+                                "type": "13",
+                                "subtype": "0",
+                                "resourceId": "25",
+                                "dependency": "0",
+                                "uid": "1556758857375338:62781",
+                                "fileId": "28",
+                                "originalId": "18446744073709551615",
+                                "publicId": "23",
+                                "source": "C:\/Program Files\/Snap Inc\/Lens Studio\/\/Studio3DResources.bundle\/\/Fonts\/VT323-Regular.ttf",
+                                "additional": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "move",
+                        "type": "1",
+                        "subtype": "9",
+                        "resourceId": "26",
+                        "dependency": "0",
+                        "uid": "1556761108617399:128252",
+                        "fileId": "29",
+                        "originalId": "30",
+                        "publicId": "25",
+                        "source": "C:\/Users\/Jake\/Desktop\/Snapchat\/Projects\/CupPong\/CupPong\/Public\/move.png",
+                        "additional": ""
+                    },
+                    {
+                        "name": "done",
+                        "type": "1",
+                        "subtype": "9",
+                        "resourceId": "27",
+                        "dependency": "0",
+                        "uid": "1556761180618925:129692",
+                        "fileId": "31",
+                        "originalId": "32",
+                        "publicId": "26",
+                        "source": "C:\/Users\/Jake\/Desktop\/Snapchat\/Projects\/CupPong\/CupPong\/Public\/done.png",
+                        "additional": ""
                     }
                 ]
             }
         },
         "InspectorController": {
             "selection": {
-                "resources": [
-                    {
-                        "uid": "1556149410452121:38568",
-                        "path_list": [
-                            "Scripts",
-                            "BallController"
-                        ]
-                    }
+                "objects": [
+                    "1556761281138533:135053"
                 ]
             }
         },
