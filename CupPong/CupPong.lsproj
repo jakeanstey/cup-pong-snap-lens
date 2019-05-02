@@ -1,11 +1,11 @@
 {
-    "lens_id": "",
+    "lens_id": "73cb9c0d-5628-48a3-bdd6-97adf4ee5488",
     "document_id": "gkLONzvidqm-0plDisZD",
     "original_document_id": "Hx_81CKClnWtxw19993O",
     "version": "14",
-    "lastChanged": "1556763427246",
-    "preview": "",
-    "videoPreview": "",
+    "lastChanged": "1556764677775",
+    "preview": "icon.png",
+    "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
     "isReadOnly": "false",
     "studioVersion": {
@@ -170,9 +170,14 @@
             ]
         },
         "MetaInfoUIComponent": {
-            "hints": "",
-            "lens": "Untitled",
-            "camera": "2",
+            "icon_hash": "5a5351a0a9822d4759a30b49e858be25",
+            "icon_path": "icon.png",
+            "video_preview_path": "preview.mp4",
+            "hints": [
+                "lens_hint_try_rear_camera"
+            ],
+            "lens": "Ball In Cup",
+            "camera": "1",
             "lens_descriptors": ""
         },
         "PreviewUiComponent": {
@@ -718,7 +723,7 @@
                     },
                     {
                         "k": "22",
-                        "v": "b17d9fe3508302c332924a7f828a3000"
+                        "v": "09a9b85264ce2d6c506be49ac74dde95"
                     },
                     {
                         "k": "23",
@@ -738,7 +743,7 @@
                         "isFolder": "true",
                         "lastModified": "2019-05-01T21:39:39",
                         "name": "Public",
-                        "hash": "853e409a9a4786e7e5b97d56156c9c1c",
+                        "hash": "ab7c83abe27127f0a07f2a63d0326f12",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -888,13 +893,13 @@
                                 "isFolder": "true",
                                 "lastModified": "2019-04-25T22:18:22",
                                 "name": "Scripts",
-                                "hash": "58818d557a440ebb0cbd4b1800be6853",
+                                "hash": "83408de3802847238252c4163db7ae5c",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-05-01T22:13:12",
+                                        "lastModified": "2019-05-01T22:18:57",
                                         "name": "BallController.js",
-                                        "hash": "b17d9fe3508302c332924a7f828a3000",
+                                        "hash": "09a9b85264ce2d6c506be49ac74dde95",
                                         "children": ""
                                     },
                                     {
@@ -1460,7 +1465,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1556761281138533:135053"
+                    "1556148979376649:34794"
                 ]
             }
         },
