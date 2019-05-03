@@ -6,6 +6,7 @@
 // @input SceneObject cup
 // @input SceneObject moveImage
 // @input SceneObject doneImage
+// @input SceneObject cupCollisionBox
 
 var touchStartedEvent = script.createEvent("TouchStartEvent");
 var touchMovedEvent = script.createEvent("TouchMoveEvent");
@@ -26,8 +27,9 @@ var lastTouchY;
 var isThrowing;
 var score = 0;
 var state = 1 // 1: playing, 2: moving
+var scored;
 
-var cupRadius = 8;
+var cupRadius = 12;
 
 var tapped = function(eventData)
 {
@@ -115,27 +117,30 @@ var updatedEvent = function(eventData)
 			script.moveImage.enabled = false;
 		}
 	}
+
+	transform = ball.getTransform();
 	
 	if(isThrowing && script.zSpeed && script.gravity)
 	{
 		var zSpeed = (high - low) * -script.zSpeed;
-		transform = ball.getTransform();
 		var currentPosition = transform.getWorldPosition();
 		
-		if(currentPosition.y >= -0)
+		transform.setWorldPosition(new vec3(currentPosition.x, currentPosition.y - script.gravity, currentPosition.z + zSpeed));
+		
+		if(currentPosition.y <= 0)
 		{
-			transform.setWorldPosition(new vec3(currentPosition.x, currentPosition.y - script.gravity, currentPosition.z + zSpeed));
+			reset();
 		}
-		else
+		
+		if(!scored)
 		{
 			if(checkCollision())
 			{
 				score++;
+				low = high;
 				script.scoreText.text = score.toString();
+				scored = true;
 			}
-			
-			isThrowing = false;
-			reset();
 		}
 		
 		if(low + .05 < high)
@@ -156,19 +161,32 @@ turnedOnEvent.bind(turnedOn);
 
 var checkCollision = function()
 {
+	if(!script.cupCollisionBox)
+	{
+		return;
+	}
+	
 	var ballPosition = ball.getTransform().getWorldPosition();
-	var cupPosition = script.cup.getTransform().getWorldPosition();
+	var rimPosition = script.cupCollisionBox.getTransform().getWorldPosition();
 	
 	var x1 = ballPosition.x;
 	var y1 = ballPosition.y;
 	var z1 = ballPosition.z;
-	var x2 = cupPosition.x;
-	var y2 = cupPosition.y;
-	var z2 = cupPosition.z;
+	var x2 = rimPosition.x;
+	var y2 = rimPosition.y;
+	var z2 = rimPosition.z;
 	
-	if((x1 >= x2 - cupRadius) && (x1 <= x2 + cupRadius) && (z1 >= z2 - cupRadius) && (z1 <= z2 + cupRadius) && y1 <= y2 + 5)
+	if((x1 >= x2 - cupRadius) && (x1 <= x2 + cupRadius) && (z1 >= z2 - cupRadius) && (z1 <= z2 + cupRadius))
 	{
-		return true;
+		print(y1 + "," + y2);
+		if((y1 <= y2 + 17) && (y1 >= y2 - 12))
+		{
+			return true;
+		}
+		else if(y1 <= y2)
+		{
+			low = high;
+		}
 	}
 	return false;
 }
@@ -183,6 +201,7 @@ var reset = function()
 	currentTouchY = null;
 	lastTouchX = null;
 	lastTouchY = null;
+	scored = false;
 }
 
 var setState = function(newstate)

@@ -3,7 +3,7 @@
     "document_id": "gkLONzvidqm-0plDisZD",
     "original_document_id": "Hx_81CKClnWtxw19993O",
     "version": "14",
-    "lastChanged": "1556764677775",
+    "lastChanged": "1556847659752",
     "preview": "icon.png",
     "videoPreview": "preview.mp4",
     "videoPreviewUpdateTime": "",
@@ -47,11 +47,12 @@
                         "Matte Shadow"
                     ],
                     [
-                        "Meshes"
+                        "Meshes",
+                        "Box"
                     ],
                     [
                         "Meshes",
-                        "Box"
+                        "CollisionBox"
                     ],
                     [
                         "Meshes",
@@ -165,7 +166,8 @@
         "SceneTreeUiComponent": {
             "collapsedList": [
                 [
-                    "1556150433476783:51059"
+                    "1556149226195954:35309",
+                    "1556758922663820:65567"
                 ]
             ]
         },
@@ -372,6 +374,14 @@
                     "sourceFilePath": "",
                     "additionalProperties": "",
                     "flags": "1"
+                },
+                {
+                    "resId": "28",
+                    "uid": "1556844985033849:33765",
+                    "name": "Files\/File33.mesh",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
                 }
             ]
         },
@@ -403,7 +413,8 @@
                 "12": "1556751087294388:26463",
                 "13": "1556758678991064:55558",
                 "14": "1556761269847822:133054",
-                "15": "1556761281138533:135053"
+                "15": "1556761281138533:135053",
+                "16": "1556845048887383:36032"
             }
         },
         "LayerComponent": {
@@ -551,6 +562,10 @@
                 {
                     "k": "32",
                     "v": "Files\/File32.png"
+                },
+                {
+                    "k": "33",
+                    "v": "Files\/File33.mesh"
                 }
             ]
         },
@@ -662,6 +677,10 @@
                     {
                         "k": "26",
                         "v": "done.png"
+                    },
+                    {
+                        "k": "27",
+                        "v": "Meshes\/CollisionBox.mesh"
                     }
                 ],
                 "hashes": [
@@ -723,7 +742,7 @@
                     },
                     {
                         "k": "22",
-                        "v": "09a9b85264ce2d6c506be49ac74dde95"
+                        "v": "2238e97bd90c28195028045bf4fb8158"
                     },
                     {
                         "k": "23",
@@ -736,14 +755,18 @@
                     {
                         "k": "26",
                         "v": "1a83e97f96d9a7ae7176dd1c614eb4f0"
+                    },
+                    {
+                        "k": "27",
+                        "v": "0f22bac28f4bb7f9303722acb5d035e0"
                     }
                 ],
                 "publicState": {
                     "tree": {
                         "isFolder": "true",
-                        "lastModified": "2019-05-01T21:39:39",
+                        "lastModified": "2019-05-02T20:57:13",
                         "name": "Public",
-                        "hash": "ab7c83abe27127f0a07f2a63d0326f12",
+                        "hash": "539520fd4417d6884e4ef40349831171",
                         "children": [
                             {
                                 "isFolder": "false",
@@ -826,14 +849,21 @@
                             },
                             {
                                 "isFolder": "true",
-                                "lastModified": "2019-05-01T18:49:13",
+                                "lastModified": "2019-05-02T20:57:13",
                                 "name": "Meshes",
-                                "hash": "d7367b958f2d01b545e41f2bf750ffc1",
+                                "hash": "88b6f6bb9ba83f73ee5c4d6432e96ce7",
                                 "children": [
                                     {
                                         "isFolder": "false",
                                         "lastModified": "2019-04-25T22:18:16",
                                         "name": "Box.mesh",
+                                        "hash": "0f22bac28f4bb7f9303722acb5d035e0",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2019-02-05T15:46:46",
+                                        "name": "CollisionBox.mesh",
                                         "hash": "0f22bac28f4bb7f9303722acb5d035e0",
                                         "children": ""
                                     },
@@ -893,13 +923,13 @@
                                 "isFolder": "true",
                                 "lastModified": "2019-04-25T22:18:22",
                                 "name": "Scripts",
-                                "hash": "83408de3802847238252c4163db7ae5c",
+                                "hash": "276287fc32530caad79024e338ffb2b0",
                                 "children": [
                                     {
                                         "isFolder": "false",
-                                        "lastModified": "2019-05-01T22:18:57",
+                                        "lastModified": "2019-05-02T21:34:34",
                                         "name": "BallController.js",
-                                        "hash": "09a9b85264ce2d6c506be49ac74dde95",
+                                        "hash": "2238e97bd90c28195028045bf4fb8158",
                                         "children": ""
                                     },
                                     {
@@ -1361,6 +1391,19 @@
                                 "publicId": "19",
                                 "source": "",
                                 "additional": ""
+                            },
+                            {
+                                "name": "CollisionBox",
+                                "type": "3",
+                                "subtype": "0",
+                                "resourceId": "28",
+                                "dependency": "0",
+                                "uid": "1556844985033849:33765",
+                                "fileId": "33",
+                                "originalId": "18446744073709551615",
+                                "publicId": "27",
+                                "source": "C:\/Program Files\/Snap Inc\/Lens Studio\/\/Studio3DResources.bundle\/\/meshes\/Box.mesh",
+                                "additional": ""
                             }
                         ]
                     },
@@ -1465,7 +1508,7 @@
         "InspectorController": {
             "selection": {
                 "objects": [
-                    "1556148979376649:34794"
+                    "1556845048887383:36032"
                 ]
             }
         },
