@@ -123,11 +123,13 @@ var updatedEvent = function(eventData)
 	if(isThrowing && script.zSpeed && script.gravity)
 	{
 		var zSpeed = (high - low) * -script.zSpeed;
-		var currentPosition = transform.getWorldPosition();
+		var currentPosition = transform.getLocalPosition();
 		
-		transform.setWorldPosition(new vec3(currentPosition.x, currentPosition.y - script.gravity, currentPosition.z + zSpeed));
+		transform.setLocalPosition(new vec3(currentPosition.x, currentPosition.y - script.gravity, currentPosition.z + zSpeed));
 		
-		if(currentPosition.y <= 0)
+		var currentWorldPosition = transform.getWorldPosition();
+		
+		if(currentWorldPosition.y <= 0)
 		{
 			reset();
 		}
